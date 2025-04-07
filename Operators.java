@@ -53,5 +53,8 @@ public class Operators {
     	System.out.println("Initial value :" +(H));
     	System.out.println("After increment : "+ (++H));
     	System.out.println(("After decrement: ")+ (--H));
+
+        System.out.println("Conditional Operation: ");
+    	System.out.println("12 is "+ ((H % 2 == 0)?"EVEN":"ODD"));
 }
 }
